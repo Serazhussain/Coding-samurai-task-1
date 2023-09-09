@@ -27,4 +27,16 @@ Project Documentation: Iris Flower Classification
 
 3. Data Preprocessing: Split data into features (X) and target (y). Divided data into training (80%) and test sets (20%) using stratified sampling.
 
-4. Model Selection and Training: Model: K-Nearest Neighbors (KNN) classifier. Training: Used fit
+4. Model Selection and Training: Model: K-Nearest Neighbors (KNN) classifier. Training: Used fit method on the training dataset.
+
+5. Evaluation (Before Tuning): Test set accuracy: 100%. All metrics (precision, recall, F1-score) for each class achieved a perfect score of 1.00.
+
+6. Hyperparameter Tuning: Utilized grid search with cross-validation to search for optimal parameters. Evaluated: number of neighbors, distance metric, and weight function. Result: Initial parameters were already near-optimal.
+
+7. Model Predictions:
+
+Predicted Iris-setosa for a sample flower with measurements [5.1, 3.5, 1.4, 0.2]. Predicted Iris-versicolor for another flower with measurements [8.1, 2.5, 2.4, 0.0].
+
+8. Visualization: Used scatter plots to visualize data distribution. Displayed confusion matrices to visualize model predictions before and after tuning.
+
+9. Challenges and Solutions: Challenge: ImportError when attempting to use plot_confusion_matrix. Solution: Identified outdated scikit-learn version. Advised updating or using an alternative plotting method. Challenge: ValueError due to incorrect label naming in the dataset. Solution: Adjusted label names to match the dataset's prefix Iris-.
