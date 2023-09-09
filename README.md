@@ -18,4 +18,13 @@ Predictions on New Data:
 
 For a flower with measurements [5.1, 3.5, 1.4, 0.2], the model confidently determined its species as Iris-setosa. Another flower, with measurements [8.1, 2.5, 2.4, 0.0], was classified as Iris-versicolor.
 
-Conclusion: Using the KNN classifier, we achieved a 100% accuracy on the Iris dataset, correctly predicting species like Iris-setosa and Iris-versicolor from new data. Hyperparameter tuning confirmed that initial parameters were near-optimal. Despite the perfect score, it's crucial to test the model on diverse real-worl
+Conclusion: Using the KNN classifier, we achieved a 100% accuracy on the Iris dataset, correctly predicting species like Iris-setosa and Iris-versicolor from new data. Hyperparameter tuning confirmed that initial parameters were near-optimal. Despite the perfect score, it's crucial to test the model on diverse real-worlld data to ensure its broad applicability and robustness.
+
+Project Documentation: Iris Flower Classification
+1. Objective: Classify Iris flowers into three species (setosa, versicolor, virginica) based on sepal and petal measurements using the K-Nearest Neighbors (KNN) classifier.
+
+2. Data Acquisition: Source: UCI Machine Learning Repository. Attributes: Sepal length, sepal width, petal length, petal width, species.
+
+3. Data Preprocessing: Split data into features (X) and target (y). Divided data into training (80%) and test sets (20%) using stratified sampling.
+
+4. Model Selection and Training: Model: K-Nearest Neighbors (KNN) classifier. Training: Used fit
